@@ -1,0 +1,267 @@
+/* ========================= */
+/* style.css */
+/* ========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+/* HEADER */
+
+header{
+    background:#003366;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    flex-wrap:wrap;
+}
+
+.logo-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo-box img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* SLIDER */
+
+.slider{
+    width:100%;
+    height:500px;
+    overflow:hidden;
+}
+
+.slider img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* ABOUT */
+
+.about{
+    width:90%;
+    margin:50px auto;
+    display:flex;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.about-text{
+    flex:1;
+}
+
+.about-text h2{
+    color:#003366;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.about-text p{
+    font-size:20px;
+    line-height:35px;
+    color:#444;
+}
+
+.about-image{
+    flex:1;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:20px;
+}
+
+/* TEACHERS */
+
+.teachers-section{
+    width:90%;
+    margin:50px auto;
+    text-align:center;
+}
+
+.teachers-section h2{
+    color:#003366;
+    margin-bottom:30px;
+    font-size:35px;
+}
+
+.teacher-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.teacher-card{
+    width:250px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.teacher-card:hover{
+    transform:translateY(-10px);
+}
+
+.teacher-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.teacher-card h3{
+    margin-top:15px;
+    color:#003366;
+}
+
+.teacher-card p{
+    padding:20px;
+}
+
+/* RESULT */
+
+.result-section{
+    width:90%;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.result-section h2{
+    color:#003366;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.result-box input{
+    width:250px;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+.result-box button{
+    padding:12px 20px;
+    border:none;
+    background:#003366;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#resultOutput{
+    margin-top:30px;
+}
+
+#resultOutput table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+#resultOutput th,
+#resultOutput td{
+    border:1px solid #ccc;
+    padding:12px;
+}
+
+/* NOTICE */
+
+.notice-section{
+    width:90%;
+    margin:50px auto;
+    background:#003366;
+    color:white;
+    padding:30px;
+    border-radius:20px;
+}
+
+.notice-section h2{
+    text-align:center;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.notice-section p{
+    padding:15px;
+    border-bottom:1px solid rgba(255,255,255,0.3);
+}
+
+/* FILE SECTION */
+
+.file-section{
+    width:90%;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.file-section h2{
+    color:#003366;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.file-box{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.file-box a{
+    background:#003366;
+    color:white;
+    padding:15px 25px;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:18px;
+}
+
+.file-box a:hover{
+    background:#0055aa;
+}
+
+/* FOOTER */
+
+footer{
+    background:#001f3f;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
