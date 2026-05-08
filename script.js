@@ -6,11 +6,9 @@
 /* SLIDER */
 
 let images = [
-
-    "images/slider1.jpg",
-    "images/slider2.jpg",
-    "images/slider3.jpg"
-
+"slider1.jpg"
+"slider2.jpg"
+"slider3.jpg"
 ];
 
 let index = 0;
